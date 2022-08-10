@@ -11,7 +11,7 @@
 # Live Project 14 : Dance Home Page
 
 
-## Project 14: [Live Link]()
+## Project 14: [Live Link](https://live-project-14-fs-js.netlify.app/)
 
 -   Skills Gained in this project.
     - Learned to use text-stroke-width to create outline text effect.
