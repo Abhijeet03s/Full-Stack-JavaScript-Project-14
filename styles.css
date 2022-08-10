@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 .container {
-  max-width: 80em;
+  max-width: 80rem;
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ body {
 .logo img {
   width: 70%;
 }
-.line {
+.line-1 {
   position: absolute;
   left: 600px;
   width: 20%;
@@ -43,6 +43,11 @@ body {
   gap: 60px;
   list-style: none;
   font-size: 0.9em;
+}
+.menu-icon {
+  display: none;
+  height: 30px;
+  cursor: pointer;
 }
 main {
   display: flex;
@@ -229,4 +234,119 @@ main {
 }
 .arrow > img {
   width: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .list-item {
+    margin-left: 30px;
+  }
+  .line-1 {
+    display: none;
+  }
+  .heading div {
+    margin-left: 80px;
+  }
+  .heading div h1::after {
+    position: absolute;
+    top: 85%;
+  }
+  .right-section .btn button {
+    margin: 60px 15px;
+  }
+  .right-section {
+    width: 65%;
+    margin-left: 6%;
+  }
+  .footer {
+    top: 400px;
+    left: 50px;
+  }
+  .footer .line {
+    height: 100%;
+    left: 7px;
+    top: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .list-item {
+    display: none;
+  }
+  .navbar {
+    padding-bottom: 60px;
+  }
+  .left-image {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+  .heading {
+    right: 10em;
+    top: -5em;
+  }
+  .heading h1 {
+    font-size: 90px;
+  }
+  .icon {
+    display: none;
+  }
+  .right-section .btn {
+    top: 12rem;
+    right: -9rem;
+  }
+  .right-section .btn button {
+    padding: 10px 15px;
+  }
+  .footer {
+    top: 200px;
+    left: -180px;
+  }
+  .footer-heading {
+    left: 200px;
+    top: 10px;
+  }
+  .footer ul {
+    top: 55px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .logo {
+    width: 40%;
+  }
+  .heading {
+    right: 16px;
+    top: -32px;
+  }
+  .heading h1 {
+    font-size: 50px;
+  }
+  .heading > h1::after {
+    display: none;
+  }
+  .heading div h1::after {
+    position: absolute;
+    top: 70%;
+    width: 13px;
+    height: 13px;
+    border-radius: 20px;
+  }
+  .right-section .btn {
+    top: 10rem;
+    left: -5rem;
+  }
+  .right-section .btn button {
+    padding: 15px 10px;
+    font-size: 15px;
+  }
+  .footer {
+    top: 200px;
+    left: -150px;
+  }
+  .footer-heading {
+    left: 30px;
+    top: 10px;
+  }
+  .footer ul {
+    display: none;
+  } 
 }
