@@ -23,7 +23,7 @@
 
 ## Time taken to finish this project(including adding media queries)⏲
 
-- >Around 8 hours.This requires a lot of positioning.(Although we can use flexbox also.)
+- >Around 10 hours.This requires a lot of positioning.(Although we can use flexbox also.)
 
 #### Screenshot
 
