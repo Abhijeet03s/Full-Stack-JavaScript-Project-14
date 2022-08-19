@@ -1,3 +1,4 @@
+# Full Stack Javascript Bootcamp Assignment 
 
 ![iNeuron, LCO](https://img.shields.io/badge/iNeuron-LCO-green)
 ![Hitesh Choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
@@ -10,8 +11,8 @@
 
 # Live Project 14 : Dance Home Page
 
-
-## Project 14: [Live Link](https://live-project-14-fs-js.netlify.app/)
+## Project 14: (Mobile Responsive) 
+[Live Link](https://live-project-14-fs-js.netlify.app/)
 
 -   Skills Gained in this project.
     - Learned to use text-stroke-width to create outline text effect.
@@ -20,10 +21,9 @@
         
 ---
 
-## Time taken to finish this project⏲
+## Time taken to finish this project(including adding media queries)⏲
 
-- >Around 8 hours.This requires a lot of positioning.
-Although we can use flexbox also.
+- >Around 8 hours.This requires a lot of positioning.(Although we can use flexbox also.)
 
 #### Screenshot
 
